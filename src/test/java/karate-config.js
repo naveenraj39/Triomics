@@ -5,7 +5,7 @@ function fn() {
     env = 'dev'; // a custom 'intelligent' default
   }
   var config = { // base config JSON
-    serverBaseUrl: 'https://ignition.stag.triomics.in'
+    serverBaseUrl: 'https://data.stag.triomics.in'
   };
   // don't waste time waiting for a connection or if servers don't respond within 5 seconds
   karate.configure('connectTimeout', 5000);
